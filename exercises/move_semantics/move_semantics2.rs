@@ -5,9 +5,11 @@
 // I AM NOT DONE
 
 fn main() {
-    let vec0 = Vec::new();
+    let vec0: Vec<i32> = Vec::new();
 
-    let mut vec1 = fill_vec(vec0);
+    // Sol 1
+    let mut vec00 = Vec::new();
+    let mut vec1 = fill_vec(vec00);
 
     // Do not change the following line!
     println!("{} has length {} content `{:?}`", "vec0", vec0.len(), vec0);
